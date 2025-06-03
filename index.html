@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html style="scroll-behavior:smooth;">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jerin Yohannan Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/92f1875e3c.js" crossorigin="anonymous"></script>
+    <style>
+      body {
+        font-weight: 500;
+        background-color: black;
+      }
+      h1, h2, h4, h5 {
+        font-weight: 1000;
+      }
+      .card-text {
+        font-size: 1rem;
+      }
+      .custom-blue {
+        color: rgb(114, 112, 112) !important;
+      }
+      header.navbar, nav.navbar {
+        background-color: ;
+      }
+      p {
+        color: gray;
+      }
+      .navbar-toggler {
+        border-color: rgba(255, 255, 255, 0.5);
+      }
+      .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.7%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+      }
+      .navbar-nav .nav-link {
+  position: relative;
+  color: white;
+  font-weight: 600;
+  padding-bottom: 5px;
+  text-decoration: none; /* no underline by default */
+}
+
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white; /* underline color */
+  transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%; /* underline expands full width on hover */
+}
+
+    </style>
+  </head>
+  <body>
+    <header class="bg-dark fixed-top navbar" style="z-index: 1030;">
+      <div class="row text-dark align-items-center mx-0 w-100">
+        <div class="col-md-6 col-9 p-3 pl-md-5">
+          <h2 class="mb-0 text-white">Jerin Yohannan</h2>
+        </div>
+        <div class="col-md-6 col-3">
+          <nav class="navbar navbar-expand-lg p-0">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#service">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link" href="#ContactMe">Contact Me</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section id="home" class="pt-5" style="padding-top:6.5rem;">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-center text-md-left mb-4 mt-4">
+            <img src="profile image.jpg" alt="Jerin Profile Pic" width="300" height="300"
+              class="rounded-circle border border-white shadow-sm" style="object-fit: contain; background: white; margin: 30px;" />
+          </div>
+          <div class="col-md-6 text-center text-md-right">
+            <h4 class="custom-blue">Front End Developer<br />Tracy, CA, USA</h4>
+            <p class="text-muted font-italic">"You are the average of 5 people you hang around"</p>
+            <footer class="font-weight-bold text-secondary">--JERIN.</footer>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-secondary p-5" id="service">
+      <div class="container">
+        <h1 class="text-center mb-5">Services</h1>
+        <div class="row g-4 justify-content-center">
+          <div class="col-md-4 mb-3">
+            <div class="card text-center p-4 shadow-sm h-100">
+              <i class="fas fa-laptop custom-blue mb-3" style="font-size:3rem;"></i>
+              <div class="card-body">
+                <h5 class="card-title custom-blue">Web Developer</h5>
+                <p class="card-text text-dark">I build responsive and modern websites using HTML, CSS, JavaScript, and Bootstrap.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <div class="card text-center p-4 shadow-sm h-100">
+              <i class="fas fa-terminal custom-blue mb-3" style="font-size:3rem;"></i>
+              <div class="card-body">
+                <h5 class="card-title custom-blue">Front End Developer</h5>
+                <p class="card-text text-dark">I create user-friendly and interactive web interfaces with clean and structured code.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <div class="card text-center p-4 shadow-sm h-100">
+              <i class="fas fa-theater-masks custom-blue mb-3" style="font-size:4rem;"></i>
+              <div class="card-body">
+                <h5 class="card-title custom-blue">Entertainer</h5>
+                <p class="card-text text-dark">I enjoy creating engaging content to connect with audiences through humor and storytelling.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-5 bg-light" id="Experience">
+      <div class="container">
+        <h1 class="text-center mb-5">Experience</h1>
+        <p class="text-center mb-4 text-muted">As a fresher, I am actively building my skills and knowledge through certifications and projects.</p>
+        <div class="row g-4 justify-content-center">
+          <div class="col-md-4">
+            <div class="card shadow-sm h-100 text-center p-3">
+              <h5 class="card-title custom-blue">CodeSignal Certification</h5>
+              <p class="card-text text-dark">Completed coding certification on CodeSignal.</p>
+              <a href="certificate (1).pdf" target="_blank" class="btn btn-dark btn-sm">View Certificate</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow-sm h-100 text-center p-3">
+              <h5 class="card-title custom-blue">Personal Projects</h5>
+              <p class="card-text text-dark">Built portfolio website and web apps using HTML, CSS, and JavaScript.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow-sm h-100 text-center p-3">
+              <h5 class="card-title custom-blue">Ongoing Education</h5>
+              <p class="card-text text-dark">Currently pursuing Bachelor's in Computer Science at WGU University.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-5 bg-secondary" id="education">
+      <div class="container">
+        <h1 class="text-center mb-5">Education</h1>
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <h5 class="card-title custom-blue">Western Governors University (WGU)</h5>
+                <p class="card-text"><strong>Degree:</strong> Bachelor of Science in Computer Science</p>
+                <p class="card-text"><strong>Status:</strong> Currently Enrolled</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <h5 class="card-title custom-blue">CodeSignal Certification</h5>
+                <p class="card-text">Completed CodeSignal Portfolio Certification</p>
+                <a href="certificate (1).pdf" target="_blank" class="btn btn-dark text-white">View Certification</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-5 bg-light" id="skills">
+      <div class="container">
+        <h1 class="text-center mb-5">Skills</h1>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card shadow-sm h-100 text-center">
+              <div class="card-body">
+                <h5 class="card-title custom-blue mb-4">Frontend</h5>
+                <ul class="list-unstyled">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>Bootstrap</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow-sm h-100 text-center">
+              <div class="card-body">
+                <h5 class="card-title custom-blue mb-4">Frameworks & Tools</h5>
+                <ul class="list-unstyled">
+                  <li>React (basic)</li>
+                  <li>Git & GitHub</li>
+                  <li>VS Code</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow-sm h-100 text-center">
+              <div class="card-body">
+                <h5 class="card-title custom-blue mb-4">Soft Skills</h5>
+                <ul class="list-unstyled">
+                  <li>Problem Solving</li>
+                  <li>Teamwork</li>
+                  <li>Communication</li>
+                  <li>Willingness to Learn</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-5 bg-secondary" id="ContactMe">
+      <div class="container">
+        <h1 class="text-center mb-5">Contact Me</h1>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <form action="https://formsubmit.co/jerinyohannan96@gmail.com" method="POST">
+              <!-- Disable Captcha -->
+              <input type="hidden" name="_captcha" value="false" />
+              <!-- Redirect after submission -->
+              <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html" />
+              
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputName" class="font-weight-bold">Name</label>
+                  <input type="text" class="form-control" id="inputName" name="Name" placeholder="Name" required />
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputPlace" class="font-weight-bold">Place</label>
+                  <input type="text" class="form-control" id="inputPlace" name="Place" placeholder="Place" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputEmail" class="font-weight-bold">Email</label>
+                <input type="email" class="form-control" id="inputEmail" name="Email" placeholder="Email" required />
+              </div>
+              <div class="form-group">
+                <label for="inputMobile" class="font-weight-bold">Mobile</label>
+                <input type="tel" class="form-control" id="inputMobile" name="Mobile" placeholder="Mobile" />
+              </div>
+              <div class="form-group">
+                <label for="inputMessage" class="font-weight-bold">Message</label>
+                <textarea class="form-control" id="inputMessage" name="Message" cols="30" rows="5" placeholder="Type your message here.." required></textarea>
+              </div>
+              <div class="form-group text-center">
+                <button type="submit" class="btn btn-dark font-weight-bold">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark py-3">
+      <div class="container text-center">
+        <a href="https://www.instagram.com" target="_blank" class="mx-2 text-white"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com" target="_blank" class="mx-2 text-white"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.linkedin.com" target="_blank" class="mx-2 text-white"><i class="fab fa-linkedin-in"></i></a>
+        <p class="text-white mt-3 mb-0" style="font-size:0.8rem;">&copy; 2025 Jerin Yohannan</p>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
